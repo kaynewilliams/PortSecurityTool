@@ -94,7 +94,7 @@ while True:
         result_window = sg.Window("Result", [[sg.Multiline(result, size=(80, 20), key="-RESULT-")]])
         result_window.read()
         result_window.close()
-        teams_webhook_url = "https://cisgov.webhook.office.com/webhookb2/6ea28ae6-a0ad-461b-818b-a3210e45057f@5e41ee74-0d2d-4a72-8975-998ce83205eb/IncomingWebhook/0c6c92e69a1e412089a5d15fc713cef0/a9dbf621-0e82-415b-bdea-5f692fcf983a"
+        teams_webhook_url = ""
         headers = {
         "Content-Type": "application/json"
         }
